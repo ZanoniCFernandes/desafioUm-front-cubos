@@ -1,0 +1,226 @@
+
+button:hover {
+    background-color: #33323D;
+    color:#FAFAFA;
+    cursor:pointer;
+}
+
+.hero {
+    height: 600px;
+    width:1100px;
+    background-image: url("../../assets/home/image-homepage-hero.jpg");
+    background-size: cover;
+    
+    margin-left: 165px;
+    margin-top: 54px;
+    margin-bottom: 149px;
+    margin-right: 165px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+
+    width: 445px;
+    height: 357px;
+}
+
+.hero__container--texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #FAFAFA;
+
+    color:#33323D;
+
+    height: 100%;
+}
+
+.hero__container--texto h1 {
+    padding-top: 10px;
+    padding-left: 27px;
+    
+    font-size: 50px;
+    line-height: 50px; 
+}
+
+.hero__container--botao {
+    display:flex;
+    justify-content: space-between;
+
+    width: 200px;
+    height:48px;
+
+    background-color: #203A4C;
+}
+
+.hero__container--botao:hover {
+    background-color: #5FB4A2;
+}
+
+.hero__container--botao:hover .hero__container--img  {
+    background-color: #498d7e;
+}
+
+.hero__container--botao:hover svg {
+    color: #FFFFFF;
+}
+
+.hero__container--img { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 48px;
+    height: 48px;
+
+    margin-right: 0px;
+
+    color: #5FB4A2;
+    background-color: #182c3a;
+}
+
+.hero__container--img img {
+    width: 16px;
+    height: 12px;
+
+}
+
+.hero__container--botao button {
+    background-color: transparent;
+    /* #203A4C; */
+    color:#FAFAFA;
+
+    width:152px;
+
+    border: 0px;
+    
+}
+
+.sobre {
+    height: 600px;
+    width:1100px;
+    
+    margin-left: 165px;
+    margin-top: 54px;
+    margin-top: 0px;
+    margin-right: 165px;
+}
+
+.sobre__container {
+    display: flex;
+    flex-direction: row;
+    
+    max-width: 1110px;
+    height: 601px;
+}
+
+.sobre__container--img img {
+    width: 550px;
+    height: 600px;
+}
+
+.sobre__container--texto {
+    max-width: 550px;
+    height: 100%;
+
+    padding-left: 120px;
+
+    color:#33323D;
+}
+
+.divisoria {
+    width: 430px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.sobre__container--texto h1 {
+    margin-top: 50px;
+    margin-bottom: 28px;
+    
+    font-size: 40px;
+    line-height: 42px;
+ 
+}
+
+.sobre__container--texto p {
+    width:430px;
+
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.sobre__container--texto button {
+    margin-top: 24px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+
+    width: 204px;
+    height: 48px;
+
+    border: 1px solid black;
+
+    background-color: #FAFAFA;
+}
+
+.sobre__container--texto button:hover {
+    background-color: #33323D;
+    color:#FAFAFA;
+}
+
+.sobre__container--texto a {
+    text-decoration: none;
+
+    color: #33323D;
+}
+
+.contato {
+    display: flex;
+
+    margin-top: 150px;
+    margin-left: 165px;
+    margin-right: 165px;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contato__texto {
+    width: 367px;
+}
+
+.contato__button {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.contato__button button {
+    width:168px;
+    height: 48px;
+
+    border: 1px solid black;
+    background-color: #FAFAFA;
+}
+
+.contato__button button:hover {
+    background-color: #33323D;
+    color:#FAFAFA;
+}
+
+.contato__button a {
+    color: #33323D;
+}
+
+.contato__button a:hover {
+    color:#FAFAFA;
+}
+
